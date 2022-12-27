@@ -24,7 +24,7 @@ public class BankAccount {
     @Test
     public void withDrawMoreThanBalance(){
         MyAccountBankAccount sunday = new MyAccountBankAccount();
-        sunday.deposit(2000);
+        sunday.deposit(20000);
         sunday.withDrawNgetive(4000);
         assertEquals(2000, sunday.getBalance(2000));
     }

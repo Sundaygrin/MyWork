@@ -1,0 +1,26 @@
+package chapterTwo;
+
+import java.util.Scanner;
+
+public class Integer {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter first integer");
+        int x = input.nextInt();
+
+        System.out.println("Enter second integer");
+        int y = input.nextInt();
+
+        System.out.println("Enter third integer");
+        int z = input.nextInt();
+
+        int sum;
+        sum = (x + y + z);
+
+        System.out.printf("product is %n" + sum);
+
+
+
+    }
+}

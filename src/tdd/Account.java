@@ -6,6 +6,13 @@ public class Account {
 
     private int balance;
 
+    public Account(String Osas, int amount, int amount1) {
+    }
+
+    public Account() {
+
+    }
+
     public void deposit(int amount) {
         if(amount>0) {
             balance = balance + amount;
