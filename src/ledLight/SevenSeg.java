@@ -1,4 +1,4 @@
-package chibuzorAssignment;
+package ledLight;
 
 public class SevenSeg {
 

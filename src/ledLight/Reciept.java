@@ -2,16 +2,19 @@ package ledLight;
 
 public class Reciept {
 
+
     String productName;
-    String price;
-    String totalPrice;
+    double price;
+    double totalPrice;
     String cashierName;
 
-            public Reciept (String productName, String price, String totalPrice){
+            public Reciept(){}
+
+            public Reciept (String productName, double price, double totalPrice){
         this.price = price;
         this.productName = productName;
         this.totalPrice = totalPrice;
-        cashierName = cashierName;
+
             }
 
     public void setProductName(String productName){
@@ -22,19 +25,19 @@ public class Reciept {
         return productName;
     }
 
-    public void setPrice(String price){
+    public void setPrice(double price){
                 return;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setTotalPrice(String totalPrice){
+    public void setTotalPrice(double totalPrice){
                 return;
     }
 
-    public String getTotalPrice() {
+    public double getTotalPrice() {
         return totalPrice;
     }
 
@@ -46,12 +49,15 @@ public class Reciept {
         return cashierName;
     }
 
-    public void Display(){
+
+    public void display(){
         System.out.println("==========================================================================");
         System.out.println("==========================================================================");
-        System.out.printf("/nItem/t/t/t Quantity /t/t/t Price /t/t/t Total (NGN)/n");
+        System.out.println("\nItem\t\t\t Quantity \t\t\t Price \t\t\t Total (NGN)\n");
         System.out.println("==========================================================================");
         System.out.println("==========================================================================");
     }
 
-}
+
+
+    }
